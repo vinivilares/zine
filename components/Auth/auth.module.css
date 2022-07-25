@@ -1,0 +1,20 @@
+.main {
+    background-color: aquamarine;
+    width: 350px;
+}
+
+.form {
+
+}
+
+.controls > input {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 0.5rem;
+}
+
+.actions  > button{ 
+    width: 80%;
+    height: 35px;
+    margin-bottom: 0.5rem;
+}

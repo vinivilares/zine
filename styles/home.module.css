@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    padding: 10em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #03191E;
+    color: white;
+}
+
+.col {
+    margin: 0 10em;
+}

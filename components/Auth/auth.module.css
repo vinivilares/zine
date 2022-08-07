@@ -1,20 +1,59 @@
 .main {
-    background-color: aquamarine;
     width: 350px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #00000033;
+    border-radius: 15px;
+    background-color: #C1CFDA;
+    font-size: 1.2em;
+}
+
+.main > h2 {
+    color: black;
 }
 
 .form {
+    text-align: center;
+    margin: auto;
+}
 
+.hr {
+    width: 50%;
 }
 
 .controls > input {
     width: 80%;
-    height: 35px;
-    margin-bottom: 0.5rem;
+    height: 2.7em;
+    margin: 0.5em 0;
+    border: none;
+    box-shadow: 2px 2px 2px 3px #00000033;
+    border-radius: 15px;
+    text-align: center;
 }
 
-.actions  > button{ 
+
+.actions > button {
+    box-shadow: 2px 2px 2px 2px #00000033;
     width: 80%;
-    height: 35px;
-    margin-bottom: 0.5rem;
+    height: 2.7em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.actions > button:hover {
+    cursor: pointer;
+}
+
+.actions > p {
+    color: black;
+}
+
+.icons {
+    font-size: 1.5rem;
+}
+
+.facebook {
+    color: #4267B2;
 }

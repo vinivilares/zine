@@ -9,6 +9,15 @@
     color: white;
 }
 
+.title {
+    font-size: 3em;
+}
+
+.description {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
 .col {
     margin: 0 10em;
 }

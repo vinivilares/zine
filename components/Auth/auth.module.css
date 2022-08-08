@@ -31,6 +31,10 @@
     text-align: center;
 }
 
+.controls > input:focus {
+    outline: none;
+}
+
 
 .actions > button {
     box-shadow: 2px 2px 2px 2px #00000033;
@@ -48,6 +52,15 @@
 
 .actions > p {
     color: black;
+}
+
+.span {
+    color: #941C2F;
+    font-weight: bold;
+}
+
+.span:hover {
+    cursor: pointer;
 }
 
 .icons {

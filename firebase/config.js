@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: process.env.APIKEY,
+    apiKey: `${process.env.APIKEY}`,
     authDomain: process.env.AUTHDOMAIN,
     projectId: process.env.PROJECTID,
     storageBucket: process.env.STORAGEBUCKET,

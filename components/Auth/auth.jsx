@@ -43,7 +43,7 @@ export default function Auth() {
                         <button><FcGoogle className={styles.icons} /> Sign up with Google</button>
                         <button disabled><AiFillApple className={styles.icons} /> Sign up with Apple</button>
                         <button><AiFillFacebook className={`${styles.icons} ${styles.facebook}`} /> Sign up with Facebook</button>
-                        <p>Don't have an account. <span className={styles.span} onClick={() => setAuth('signup')}>Sign up</span></p>
+                        <p>Don&apos;t have an account. <span className={styles.span} onClick={() => setAuth('signup')}>Sign up</span></p>
                     </div>
                 </div>
             ) : (

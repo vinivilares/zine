@@ -1,22 +1,23 @@
 .main {
-    display: flex;
-    height: 100vh;
-    margin: auto;
-    padding: 10em;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  padding: 10em;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #03191e;
+  color: white;
 }
 
 .title {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .description {
-    font-size: 1.2em;
-    text-align: justify;
+  font-size: 1.2em;
+  text-align: justify;
 }
 
 .col {
-    margin: 0 10em;
+  margin: 0 10em;
 }
